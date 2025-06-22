@@ -22,7 +22,7 @@ from urllib.parse import parse_qs, urlparse
 
 class ProxyRequestHandler(websockifyserver.WebSockifyRequestHandler):
 
-    buffer_size = 65536
+    buffer_size = 131072
 
     traffic_legend = """
 Traffic Legend:
